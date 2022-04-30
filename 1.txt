@@ -1,0 +1,6 @@
+import pandas as pd
+
+pth = r'C:\path.csv'
+df = pd.read_csv(pth)
+
+print(df.head(5))
